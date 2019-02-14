@@ -1,0 +1,17 @@
+{
+  "name": "is-blocked",
+  "description": "Check if the site is blocked from the user",
+  "keywords": [
+    "util",
+    "ajax",
+    "promise",
+    "xhr",
+    "fetch"
+  ],
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "files": [
+    "/src"
+  ],
+  "license": "MIT"
+}
