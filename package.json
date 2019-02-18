@@ -1,5 +1,10 @@
 {
   "name": "is-blocked",
+  "version": "1.0.0",
+  "main": "dist/is-blocked.min.js",
+  "files": [
+    "/dist"
+  ],
   "description": "Check if the site is blocked from the user",
   "keywords": [
     "util",
@@ -8,10 +13,12 @@
     "xhr",
     "fetch"
   ],
-  "version": "1.0.0",
-  "main": "src/main.js",
-  "files": [
-    "/src"
-  ],
-  "license": "MIT"
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "1.2.1",
+    "rollup-plugin-uglify": "6.0.2"
+  }
 }

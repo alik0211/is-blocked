@@ -1,4 +1,4 @@
-module.exports = function(url) {
+function isBlocked(url) {
   return new Promise(function(resolve, reject) {
     fetch(url, {
       mode: 'no-cors'
@@ -6,4 +6,6 @@ module.exports = function(url) {
       .then(reject)
       .catch(resolve);
   });
-};
+}
+
+export default isBlocked;
