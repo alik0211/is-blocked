@@ -16,6 +16,10 @@
   "scripts": {
     "build": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alik0211/is-blocked.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "rollup": "1.2.1",
