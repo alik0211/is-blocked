@@ -1,3 +1,8 @@
+/**
+ * @function
+ * @param {string} url
+ * @return {Promise}
+ */
 function isBlocked(url) {
   return new Promise(function(resolve, reject) {
     fetch(url, {
