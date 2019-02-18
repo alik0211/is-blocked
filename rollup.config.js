@@ -6,7 +6,7 @@ export default {
   output: {
     file: pkg.main,
     format: 'umd',
-    name: 'supername'
+    name: 'isBlocked'
   },
   plugins: [uglify()]
 };
