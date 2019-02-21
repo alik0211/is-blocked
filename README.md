@@ -25,3 +25,7 @@ Or yarn:
 ```
 yarn add is-blocked
 ```
+
+## Cases
+
+- [Replace blocked Telegram links](https://alik0211.com/blog/replace-blocked-telegram-links/)
