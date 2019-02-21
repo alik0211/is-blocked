@@ -26,6 +26,12 @@ Or yarn:
 yarn add is-blocked
 ```
 
+### CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/is-blocked@2.0.0/dist/is-blocked.min.js"></script>
+```
+
 ## Cases
 
 - [Replace blocked Telegram links](https://alik0211.com/blog/replace-blocked-telegram-links/)
